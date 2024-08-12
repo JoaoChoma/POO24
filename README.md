@@ -6,4 +6,4 @@ Este repositório será utilizado para nossa comunicação e para consulta de to
 
 Os exercícios das atividades práticas estarão na pasta ATIVIDADES.
 
-O local para envio das atividades estará disponível nos links do Google Forms. Em breve, publicarei os links para envio.
+O local para envio das atividades estará disponível nos links do Google Forms. Em breve, publicarei os links para envio.kk
