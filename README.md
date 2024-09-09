@@ -12,9 +12,12 @@ A prova será realizada nos computadores do laboratório, durante o horário de 
 
 Como temos dois encontros semanais, a turma será dividida: parte dos alunos realizará a prova no dia 01 e a outra parte no dia 02, conforme escala disponível no diretório ESCALACAO PROVA 01.
 
+https://github.com/JoaoChoma/POO24/tree/main/ESCALACAO%20PROVA%2001
+
 Os alunos escalados para o dia 01 não deverão comparecer no dia 02, e vice-versa.
 
 Verifiquem as listas e comuniquem qualquer discordância o mais breve possível.
+
 # ATIVIDADE PRÁTICA
 
 Os exercícios das atividades práticas estarão na pasta ATIVIDADE PRÁTICA - https://github.com/JoaoChoma/POO24/tree/main/ATIVIDADE%20PRATICA
