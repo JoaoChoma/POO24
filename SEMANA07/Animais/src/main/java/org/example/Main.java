@@ -7,6 +7,10 @@ public class Main {
        a.andar();
        a.emitirSom();
 
+       Pato p = new Pato("Goose", 12, 120, "branco");
+       p.voar();
+       p.nadar();
+       p.andar();
 
     }
 }
