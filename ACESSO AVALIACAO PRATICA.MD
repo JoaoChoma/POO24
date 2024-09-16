@@ -1,3 +1,2 @@
 # LINK DE ACESSO A AVALIACAO PRATICA
 
-https://forms.gle/pRvyXt1xFPQ4AC3D8
