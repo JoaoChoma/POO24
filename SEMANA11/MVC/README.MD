@@ -22,3 +22,23 @@
     TarefaController.java
 
 Main.java
+
+---
+
+# Explicação do Projeto:
+
+## Model:
+
+Tarefa: Representa uma tarefa individual com um ID, uma descrição e um status de completa ou incompleta.
+GerenciadorTarefas: Gerencia a lista de tarefas, permitindo adicionar novas e marcar como completas.
+View:
+
+TarefaView: Responsável por exibir as tarefas e solicitar informações ao usuário, como a descrição de uma nova tarefa ou o ID de uma tarefa a ser marcada como completa.
+
+## Controller:
+
+TarefaController: Faz a ponte entre o GerenciadorTarefas e a TarefaView, recebendo entradas da visão, atualizando o modelo e retornando resultados para a visão exibir.
+
+## Main:
+
+Um menu simples no console permite ao usuário interagir com o sistema, adicionando tarefas, listando-as ou marcando-as como completas.
