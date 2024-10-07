@@ -7,11 +7,18 @@
 - Controller: Intermediário entre o modelo e a visão, gerenciando a lógica de negócios e o fluxo de dados.
 
 /src
+
   /model
+
     Tarefa.java
     GerenciadorTarefas.java
+  
   /view
+  
     TarefaView.java
+  
   /controller
+  
     TarefaController.java
+
 Main.java
