@@ -5,24 +5,24 @@ public class Main {
 
                 GerenciadorConta gerenciador = new GerenciadorConta();
 
-                // Criando contas
+
                 ContaBancaria contaJoao = new ContaBancaria("João");
                 ContaBancaria contaMaria = new ContaBancaria("Maria");
 
-                // Exibindo saldos iniciais
+
                 gerenciador.exibirSaldo(contaJoao);
                 gerenciador.exibirSaldo(contaMaria);
 
-                // Realizando operações
+                // operações
                 gerenciador.realizarDeposito(contaJoao, 1000);
                 gerenciador.realizarSaque(contaJoao, 300);
                 gerenciador.realizarTransferencia(contaJoao, contaMaria, 200);
 
-                // Testando exceções
-                gerenciador.realizarSaque(contaJoao, 1000);  // Deve lançar exceção de saldo insuficiente
-                gerenciador.realizarDeposito(contaMaria, -50);  // Deve lançar exceção de valor inválido
+                // exceções
+                gerenciador.realizarSaque(contaJoao, 1000);  // saldo insuficiente
+                gerenciador.realizarDeposito(contaMaria, -50);  //  valor inválido
 
-                // Exibindo saldos finais
+
                 gerenciador.exibirSaldo(contaJoao);
                 gerenciador.exibirSaldo(contaMaria);
             }
