@@ -14,7 +14,7 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
 1. **Cadastro de Tarefas (0,5 ponto)**:
    - Cada tarefa deve conter:
      - Título (obrigatório)
-     - Descrição (opcional)
+     - Descrição
      - Data de criação (gerada automaticamente)
      - Status (A Fazer, Em Progresso, Concluído)
      - Prioridade (baixa, média, alta)
@@ -37,7 +37,7 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
 - A tarefa deve ser movida entre as colunas na ordem: A Fazer → Em Progresso → Concluído.
 - O título da tarefa é obrigatório; descrição e data limite são opcionais.
 
-## Endpoints da API
+## Endpoints da API (0,5 ponto)
 
 ### Tarefas
 - **POST** `/tasks`: Criar uma nova tarefa na coluna "A Fazer".
@@ -57,7 +57,7 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
        "priority": "alta"
    }
 
-## Autenticação com JWT (Opcional)
+## Autenticação com JWT (Opcional) (1,0 ponto)
 
 Este sistema pode utilizar autenticação via **OAuth2** com **JWT (JSON Web Token)** para proteger os endpoints da API. Quando habilitada, apenas usuários autenticados podem criar, atualizar ou excluir tarefas. O fluxo de autenticação segue o padrão **OAuth2PasswordBearer**, em que o usuário envia suas credenciais (nome de usuário e senha) para receber um token JWT, que deverá ser incluído nas requisições subsequentes para acessar recursos protegidos.
 
