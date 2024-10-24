@@ -7,8 +7,8 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
 - **Java Spring Boot**
 - **Banco de dados H2** (in-memory)
 - **Postman** (para testes de API)
-- **JWT (opcional)** para autenticação
-- **OAuth2PasswordBearer (opcional)** para segurança adicional
+- **JWT (desafio)** para autenticação
+- **OAuth2PasswordBearer (desafio)** para segurança adicional
 
 ## Requisitos Funcionais
 1. **Cadastro de Tarefas (0,5 ponto)**:
@@ -18,7 +18,7 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
      - Data de criação (gerada automaticamente)
      - Status (A Fazer, Em Progresso, Concluído)
      - Prioridade (baixa, média, alta)
-     - Data limite (opcional)
+     - Data limite (desafio)
 
 2. **Gerenciamento de Tarefas (0,5 ponto)**:
    - Criar novas tarefas na coluna "A Fazer".
@@ -57,7 +57,7 @@ Este projeto implementa uma API REST para gerenciar um quadro **Kanban** de tare
        "priority": "alta"
    }
 
-## Autenticação com JWT (Opcional) (1,0 ponto)
+## Autenticação com JWT (Desafio) (1,0 ponto)
 
 Este sistema pode utilizar autenticação via **OAuth2** com **JWT (JSON Web Token)** para proteger os endpoints da API. Quando habilitada, apenas usuários autenticados podem criar, atualizar ou excluir tarefas. O fluxo de autenticação segue o padrão **OAuth2PasswordBearer**, em que o usuário envia suas credenciais (nome de usuário e senha) para receber um token JWT, que deverá ser incluído nas requisições subsequentes para acessar recursos protegidos.
 
