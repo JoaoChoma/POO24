@@ -60,10 +60,17 @@ Esse arquivo em markdown oferece uma visão geral do Spring Boot, como iniciar u
 ## application.properties
 
 spring.application.name=crudproject
+
 spring.datasource.url=jdbc:h2:mem:testdb
+
 spring.datasource.driverClassName=org.h2.Driver
+
 spring.datasource.username=sa
+
 spring.datasource.password=
+
 spring.h2.console.enabled=true
+
 spring.jpa.hibernate.ddl-auto=update
+
 server.port=8090
