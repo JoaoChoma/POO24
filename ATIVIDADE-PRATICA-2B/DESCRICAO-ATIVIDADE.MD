@@ -1,3 +1,5 @@
+# DATA DE ENTREGA - 18/11/2024
+
 # Sistema de Gerenciamento de Tarefas Kanban
 
 ## Descrição
