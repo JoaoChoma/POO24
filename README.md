@@ -4,11 +4,35 @@ Olá, pessoal!
 
 Este repositório será utilizado para nossa comunicação e para consulta de todos vocês. Ele será uma ferramenta importante para o estudo e preparação para as provas.
 
-# ATIVIDADE PRÁTICA
+----
 
-Os exercícios das atividades práticas estarão na pasta ATIVIDADE PRÁTICA
+# SEGUNDA E ÚLTIMA AVALIAÇÃO PRÁTICA DE POO 2024
+
+A segunda e última avaliação prática de Programação Orientada a Objetos de 2024 será realizada na semana de 14/11 a 22/11.
+
++ `Engsoft A` - **Dias 01 e 02:** 18/11
++ `Engsoft B` - **Dia 01:** 14/11 e **Dia 02:** 21/11
++ `Engsoft C` - **Dia 01:** 14/11 e **Dia 02:** 21/11
++ `Ads A` - **Dia 01:** 19/11 e **Dia 02:** 22/11
++ `Ads B` - **Dia 01:** 19/11 e **Dia 02:** 22/11
+
+A prova será aplicada nos computadores do laboratório, durante o horário regular de aula.
+
+Como temos dois encontros semanais, a turma será dividida em duas partes: uma realizará a prova no dia 01 e a outra no dia 02. A escala de alunos por dia está disponível no diretório "ESCALACAO PROVA 02". Utilizaremos a mesma escala de divisão aplicada na primeira avaliação.
+
+Importante: Alunos escalados para o dia 01 deverão comparecer apenas nesse dia e não comparecer no dia 02. Da mesma forma, alunos escalados para o dia 02 deverão comparecer apenas nesse dia e não no dia 01.
+
+Verifiquem a escala e comuniquem imediatamente qualquer discordância. Devido ao término do semestre, não haverá prazo para ajustes posteriores.
+
+# ATIVIDADE PRÁTICA 2B
+
+A entrega dos resultados da implementação da atividade do Kanban será realizada em formulário.
+
+Link em instantes.
 
 
+---
+OLD
 # LOCAL DE ENVIO DAS ATIVIDADES PRÁTICAS
 
 Um formulário será utilizado para a submissão de atividades práticas que irão compor a nota total de ATIVIDADE PRÁTICA que corresponde ao total de 3,0 pontos da disciplina.
