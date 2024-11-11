@@ -40,6 +40,7 @@ Para iniciar um novo projeto Spring Boot, siga os passos abaixo:
 Ao desenvolver uma aplicação Spring Boot, utilizamos uma arquitetura em camadas para separar responsabilidades. As principais camadas são:
 
 **1. Model**
+
 A camada Model representa a estrutura de dados da aplicação, ou seja, as entidades. Cada classe de entidade corresponde a uma tabela no banco de dados e contém atributos com suas respectivas anotações JPA.
 
 Exemplo:
@@ -57,6 +58,7 @@ public class Produto {
 ```
 
 **2. Repository**
+
 A camada Repository é responsável pela comunicação com o banco de dados. Usando Spring Data JPA, podemos criar interfaces que herdam de JpaRepository, ganhando métodos para operações CRUD (Create, Read, Update, Delete) sem escrever código SQL manualmente.
 
 Exemplo:
@@ -67,6 +69,7 @@ public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 ```
 
 **3. Service**
+
 A camada Service contém a lógica de negócio da aplicação. É aqui que implementamos as regras de negócio e coordenamos as operações entre o Model e o Repository.
 
 Exemplo:
@@ -91,6 +94,7 @@ public class ProdutoService {
 ```
 
 **4. Controller**
+
 A camada Controller é responsável por gerenciar as requisições HTTP e interagir com a camada Service para manipular os dados. Cada método na classe Controller mapeia uma rota (endpoint) e responde a diferentes métodos HTTP (GET, POST, PUT, DELETE).
 
 Exemplo:
@@ -124,8 +128,11 @@ public class ProdutoController {
 Endpoints são os pontos de entrada da API, onde diferentes rotas e métodos HTTP permitem que os usuários interajam com os dados e funcionalidades da aplicação. Em uma API RESTful, os principais métodos HTTP são:
 
 `GET:` Recupera dados.
+
 `POST:` Cria novos dados.
+
 `PUT:` Atualiza dados existentes.
+
 `DELETE:` Remove dados.
 
 **Como Testar Endpoints no Postman**
