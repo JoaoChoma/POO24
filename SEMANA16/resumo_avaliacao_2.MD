@@ -59,7 +59,6 @@ A camada Repository é responsável pela comunicação com o banco de dados. Usa
 Exemplo:
 
 ```java
-Copiar código
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 }
 ```
@@ -70,7 +69,6 @@ A camada Service contém a lógica de negócio da aplicação. É aqui que imple
 Exemplo:
 
 ```java
-Copiar código
 @Service
 public class ProdutoService {
     private final ProdutoRepository produtoRepository;
@@ -95,7 +93,6 @@ A camada Controller é responsável por gerenciar as requisições HTTP e intera
 Exemplo:
 
 ```java
-Copiar código
 @RestController
 @RequestMapping("/produtos")
 public class ProdutoController {
@@ -137,7 +134,6 @@ O Postman é uma ferramenta popular para testar APIs. Aqui está um guia básico
 + Configurar o Corpo da Requisição (POST/PUT): Para requisições POST ou PUT, vá até a aba “Body”, selecione “raw” e escolha “JSON”. Insira o JSON com os dados necessários, por exemplo:
 
 ```json
-Copiar código
 {
     "nome": "Produto Exemplo",
     "preco": 29.99
