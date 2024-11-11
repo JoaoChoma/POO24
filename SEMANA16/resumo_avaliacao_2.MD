@@ -5,8 +5,11 @@
 A Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o código em torno de objetos. Cada objeto representa uma entidade do mundo real e possui atributos (propriedades) e métodos (comportamentos). A POO possui quatro pilares fundamentais:
 
 **Encapsulamento:** Restrição de acesso direto a partes específicas de um objeto, permitindo interações controladas.
+
 **Abstração:** Simplificação de conceitos complexos, expondo apenas os aspectos essenciais.
+
 **Herança:** Capacidade de uma classe derivar características de outra, promovendo reutilização.
+
 **Polimorfismo:** Habilidade de diferentes classes responderem ao mesmo método de maneiras distintas.
 
 ## Introdução ao Spring Boot
