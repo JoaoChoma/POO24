@@ -4,7 +4,6 @@ Olá, pessoal!
 
 Este repositório será utilizado para nossa comunicação e para consulta de todos vocês. Ele será uma ferramenta importante para o estudo e preparação para as provas.
 
-----
 
 # SEGUNDA E ÚLTIMA AVALIAÇÃO PRÁTICA DE POO 2024
 
@@ -18,7 +17,7 @@ A segunda e última avaliação prática de Programação Orientada a Objetos de
 
 A prova será aplicada nos computadores do laboratório, durante o horário regular de aula.
 
-Como temos dois encontros semanais, a turma será dividida em duas partes: uma realizará a prova no dia 01 e a outra no dia 02. A escala de alunos por dia está disponível no diretório "ESCALACAO PROVA 02". Utilizaremos a mesma escala de divisão aplicada na primeira avaliação.
+Como temos dois encontros semanais, a turma será dividida em duas partes: uma realizará a prova no dia 01 e a outra no dia 02. A escala de alunos por dia está disponível no diretório [**ESCALACAO PROVA 02**](https://github.com/JoaoChoma/POO24/tree/main/ESCALACAO%20PROVA%2002). Utilizaremos a mesma escala de divisão aplicada na primeira avaliação.
 
 Importante: Alunos escalados para o dia 01 deverão comparecer apenas nesse dia e não comparecer no dia 02. Da mesma forma, alunos escalados para o dia 02 deverão comparecer apenas nesse dia e não no dia 01.
 
