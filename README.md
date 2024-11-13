@@ -27,7 +27,26 @@ Verifiquem a escala e comuniquem imediatamente qualquer discordância. Devido ao
 
 A entrega dos resultados da implementação da atividade do Kanban será realizada em formulário.
 
-Link em instantes.
+## ATENÇÃO NAS RESPOSTAS
+
+Para facilitar a vida de todos, vamos utilizar o Github para entrega do trabalho.
+
+Subam o projeto no Github e deixem o repositório **público**. No campo de resposta, colar o link para o repositório do projeto.
+
+----
+
+### Em relação aos Endpoints
+
+Os endpoints devem ser implementados nas classes de controle (Controller).
+
+Necessário realizar um print da execução de cada rota que você criou.
+
+Subir os prints em uma pasta no github chamada `/endpoints`
+
+## Link para entrega da atividade prática
+
+https://forms.gle/vzxj8w917ob4F5To8
+
 
 
 ---
